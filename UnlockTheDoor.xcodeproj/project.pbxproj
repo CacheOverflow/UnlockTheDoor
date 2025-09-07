@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		8EBD1F252E6DF6BC00B29387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBD1F0F2E6DF6BA00B29387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBD1F162E6DF6BA00B29387;
+			remoteInfo = UnlockTheDoor;
+		};
+		8EBD1F2F2E6DF6BC00B29387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBD1F0F2E6DF6BA00B29387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBD1F162E6DF6BA00B29387;
+			remoteInfo = UnlockTheDoor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8EBD1F172E6DF6BA00B29387 /* UnlockTheDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnlockTheDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD1F242E6DF6BC00B29387 /* UnlockTheDoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnlockTheDoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD1F2E2E6DF6BC00B29387 /* UnlockTheDoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnlockTheDoorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8EBD1F192E6DF6BA00B29387 /* UnlockTheDoor */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UnlockTheDoor;
+			sourceTree = "<group>";
+		};
+		8EBD1F272E6DF6BC00B29387 /* UnlockTheDoorTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UnlockTheDoorTests;
+			sourceTree = "<group>";
+		};
+		8EBD1F312E6DF6BC00B29387 /* UnlockTheDoorUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = UnlockTheDoorUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8EBD1F142E6DF6BA00B29387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F212E6DF6BC00B29387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F2B2E6DF6BC00B29387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8EBD1F0E2E6DF6BA00B29387 = {
+			isa = PBXGroup;
+			children = (
+				8EBD1F192E6DF6BA00B29387 /* UnlockTheDoor */,
+				8EBD1F272E6DF6BC00B29387 /* UnlockTheDoorTests */,
+				8EBD1F312E6DF6BC00B29387 /* UnlockTheDoorUITests */,
+				8EBD1F182E6DF6BA00B29387 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8EBD1F182E6DF6BA00B29387 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD1F172E6DF6BA00B29387 /* UnlockTheDoor.app */,
+				8EBD1F242E6DF6BC00B29387 /* UnlockTheDoorTests.xctest */,
+				8EBD1F2E2E6DF6BC00B29387 /* UnlockTheDoorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8EBD1F162E6DF6BA00B29387 /* UnlockTheDoor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBD1F382E6DF6BC00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoor" */;
+			buildPhases = (
+				8EBD1F132E6DF6BA00B29387 /* Sources */,
+				8EBD1F142E6DF6BA00B29387 /* Frameworks */,
+				8EBD1F152E6DF6BA00B29387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8EBD1F192E6DF6BA00B29387 /* UnlockTheDoor */,
+			);
+			name = UnlockTheDoor;
+			packageProductDependencies = (
+			);
+			productName = UnlockTheDoor;
+			productReference = 8EBD1F172E6DF6BA00B29387 /* UnlockTheDoor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EBD1F232E6DF6BC00B29387 /* UnlockTheDoorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBD1F3B2E6DF6BC00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoorTests" */;
+			buildPhases = (
+				8EBD1F202E6DF6BC00B29387 /* Sources */,
+				8EBD1F212E6DF6BC00B29387 /* Frameworks */,
+				8EBD1F222E6DF6BC00B29387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBD1F262E6DF6BC00B29387 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EBD1F272E6DF6BC00B29387 /* UnlockTheDoorTests */,
+			);
+			name = UnlockTheDoorTests;
+			packageProductDependencies = (
+			);
+			productName = UnlockTheDoorTests;
+			productReference = 8EBD1F242E6DF6BC00B29387 /* UnlockTheDoorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EBD1F2D2E6DF6BC00B29387 /* UnlockTheDoorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBD1F3E2E6DF6BC00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoorUITests" */;
+			buildPhases = (
+				8EBD1F2A2E6DF6BC00B29387 /* Sources */,
+				8EBD1F2B2E6DF6BC00B29387 /* Frameworks */,
+				8EBD1F2C2E6DF6BC00B29387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBD1F302E6DF6BC00B29387 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EBD1F312E6DF6BC00B29387 /* UnlockTheDoorUITests */,
+			);
+			name = UnlockTheDoorUITests;
+			packageProductDependencies = (
+			);
+			productName = UnlockTheDoorUITests;
+			productReference = 8EBD1F2E2E6DF6BC00B29387 /* UnlockTheDoorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8EBD1F0F2E6DF6BA00B29387 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8EBD1F162E6DF6BA00B29387 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8EBD1F232E6DF6BC00B29387 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8EBD1F162E6DF6BA00B29387;
+					};
+					8EBD1F2D2E6DF6BC00B29387 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8EBD1F162E6DF6BA00B29387;
+					};
+				};
+			};
+			buildConfigurationList = 8EBD1F122E6DF6BA00B29387 /* Build configuration list for PBXProject "UnlockTheDoor" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8EBD1F0E2E6DF6BA00B29387;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8EBD1F182E6DF6BA00B29387 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8EBD1F162E6DF6BA00B29387 /* UnlockTheDoor */,
+				8EBD1F232E6DF6BC00B29387 /* UnlockTheDoorTests */,
+				8EBD1F2D2E6DF6BC00B29387 /* UnlockTheDoorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8EBD1F152E6DF6BA00B29387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F222E6DF6BC00B29387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F2C2E6DF6BC00B29387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8EBD1F132E6DF6BA00B29387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F202E6DF6BC00B29387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F2A2E6DF6BC00B29387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8EBD1F262E6DF6BC00B29387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBD1F162E6DF6BA00B29387 /* UnlockTheDoor */;
+			targetProxy = 8EBD1F252E6DF6BC00B29387 /* PBXContainerItemProxy */;
+		};
+		8EBD1F302E6DF6BC00B29387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBD1F162E6DF6BA00B29387 /* UnlockTheDoor */;
+			targetProxy = 8EBD1F2F2E6DF6BC00B29387 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8EBD1F362E6DF6BC00B29387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8EBD1F372E6DF6BC00B29387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8EBD1F392E6DF6BC00B29387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8EBD1F3A2E6DF6BC00B29387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8EBD1F3C2E6DF6BC00B29387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnlockTheDoor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnlockTheDoor";
+			};
+			name = Debug;
+		};
+		8EBD1F3D2E6DF6BC00B29387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnlockTheDoor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnlockTheDoor";
+			};
+			name = Release;
+		};
+		8EBD1F3F2E6DF6BC00B29387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnlockTheDoor;
+			};
+			name = Debug;
+		};
+		8EBD1F402E6DF6BC00B29387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UnlockTheDoor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8EBD1F122E6DF6BA00B29387 /* Build configuration list for PBXProject "UnlockTheDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD1F362E6DF6BC00B29387 /* Debug */,
+				8EBD1F372E6DF6BC00B29387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBD1F382E6DF6BC00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD1F392E6DF6BC00B29387 /* Debug */,
+				8EBD1F3A2E6DF6BC00B29387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBD1F3B2E6DF6BC00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD1F3C2E6DF6BC00B29387 /* Debug */,
+				8EBD1F3D2E6DF6BC00B29387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBD1F3E2E6DF6BC00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD1F3F2E6DF6BC00B29387 /* Debug */,
+				8EBD1F402E6DF6BC00B29387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8EBD1F0F2E6DF6BA00B29387 /* Project object */;
+}
