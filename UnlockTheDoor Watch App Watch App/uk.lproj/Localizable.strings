@@ -1,0 +1,25 @@
+// Main Screen
+"no_config" = "Немає налаштувань";
+"open_iphone_app" = "Відкрийте додаток iPhone для налаштування";
+"room" = "Кімната";
+"tap_to_unlock" = "Торкніться, щоб відкрити";
+
+// Status Messages
+"unlocking" = "Відкриваємо...";
+"via_iphone" = "Через iPhone...";
+"direct_unlock" = "Прямо...";
+"unlocked" = "Відкрито!";
+"setup_first" = "Спочатку налаштуйте";
+"sync_iphone" = "Синхронізувати iPhone";
+"last_sync" = "Остання синхронізація: %@";
+"syncing" = "Синхронізація...";
+
+// Errors
+"iphone_not_connected" = "iPhone не підключений";
+"please_refresh_iphone" = "Будь ласка, оновіть на iPhone";
+"could_not_connect" = "Не вдалося підключитися";
+"something_went_wrong" = "Щось пішло не так";
+
+// For Complications
+"app_title" = "Відкрити двері";
+"unlock_door" = "Відкрити двері";

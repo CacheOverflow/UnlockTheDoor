@@ -1,0 +1,57 @@
+// Main Screen
+"app_title" = "ドアを開ける";
+"app_subtitle" = "スマートホテルドアアクセス";
+
+// Configuration Status
+"door_configured" = "ドア設定済み";
+"room_label" = "部屋：%@";
+"no_door_configured" = "ドア未設定";
+"paste_sms_link" = "ホテルのSMSリンクを貼り付けて開始";
+
+// Buttons
+"add_sms_link" = "SMSリンクを追加";
+"remove_configuration" = "ドア設定を削除";
+"unlock_door" = "ドアを開ける";
+"unlocking" = "開錠中...";
+"cancel" = "キャンセル";
+"add_link" = "リンクを追加";
+
+// Status Messages
+"via_iphone" = "iPhone経由...";
+"direct_unlock" = "直接...";
+"unlocked" = "開錠完了！";
+"setup_first" = "まず設定してください";
+"sync_iphone" = "iPhoneと同期";
+
+// Watch Status
+"watch_app_installed" = "Watchアプリがインストール済み";
+"watch_app_not_installed" = "Watchアプリが未インストール";
+"watch_unlocking" = "Watchで開錠中...";
+
+// Link Input Screen
+"add_hotel_link" = "ホテルリンクを追加";
+"setup_instructions" = "設定手順";
+"instruction_1" = "1. ドア開錠リンクが含まれたホテルからのSMSを見つけます";
+"instruction_2" = "2. 以下にリンクをコピーして貼り付けます";
+"example_link" = "例：http://k3y.in/Gtxqb";
+"sms_link_label" = "SMSリンク";
+"paste_placeholder" = "ホテルのSMSリンクをここに貼り付けてください";
+
+// Errors
+"iphone_not_connected" = "iPhoneが接続されていません";
+"please_refresh_iphone" = "iPhoneで更新してください";
+"could_not_connect" = "接続できませんでした";
+"something_went_wrong" = "何かが間違っています";
+"invalid_link" = "無効なリンク形式";
+"network_error" = "インターネット接続がありません。WiFiまたはモバイルデータを確認してください。";
+"session_expired" = "ホテルリンクの有効期限が切れました。SMSリンクを再度追加してください。";
+"invalid_response" = "ホテルシステムに接続できませんでした。もう一度お試しください。";
+"processing_link" = "リンクを処理中...";
+
+// Watch App
+"no_config" = "設定なし";
+"open_iphone_app" = "設定するにはiPhoneアプリを開いてください";
+"room" = "部屋";
+"tap_to_unlock" = "タップして開錠";
+"last_sync" = "最終同期：%@";
+"syncing" = "同期中...";

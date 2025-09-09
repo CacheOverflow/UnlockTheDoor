@@ -1,0 +1,5 @@
+// Widget Display
+"widget_name" = "Відкрити двері";
+"widget_description" = "Швидкий доступ до відкриття";
+"tap_to_unlock" = "Торкніться, щоб відкрити";
+"unlock" = "Відкрити";

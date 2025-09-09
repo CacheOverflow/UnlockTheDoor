@@ -1,0 +1,57 @@
+// Main Screen
+"app_title" = "Відкрити Двері";
+"app_subtitle" = "Розумний доступ до готельних дверей";
+
+// Configuration Status
+"door_configured" = "Двері налаштовано";
+"room_label" = "Кімната: %@";
+"no_door_configured" = "Двері не налаштовано";
+"paste_sms_link" = "Вставте ваше готельне SMS-посилання, щоб почати";
+
+// Buttons
+"add_sms_link" = "Додати SMS-посилання";
+"remove_configuration" = "Видалити конфігурацію дверей";
+"unlock_door" = "Відкрити двері";
+"unlocking" = "Відкриваю...";
+"cancel" = "Скасувати";
+"add_link" = "Додати посилання";
+
+// Status Messages
+"via_iphone" = "Через iPhone...";
+"direct_unlock" = "Прямо...";
+"unlocked" = "Відкрито!";
+"setup_first" = "Спочатку налаштуйте";
+"sync_iphone" = "Синхронізувати iPhone";
+
+// Watch Status
+"watch_app_installed" = "Додаток для годинника встановлено";
+"watch_app_not_installed" = "Додаток для годинника не встановлено";
+"watch_unlocking" = "Годинник відкриває...";
+
+// Link Input Screen
+"add_hotel_link" = "Додати готельне посилання";
+"setup_instructions" = "Інструкції з налаштування";
+"instruction_1" = "1. Знайдіть SMS від вашого готелю з посиланням для відкриття дверей";
+"instruction_2" = "2. Скопіюйте та вставте посилання нижче";
+"example_link" = "Приклад: http://k3y.in/Gtxqb";
+"sms_link_label" = "SMS-посилання";
+"paste_placeholder" = "Вставте ваше готельне SMS-посилання тут";
+
+// Errors
+"iphone_not_connected" = "iPhone не підключено";
+"please_refresh_iphone" = "Будь ласка, оновіть на iPhone";
+"could_not_connect" = "Не вдалося підключитися";
+"something_went_wrong" = "Щось пішло не так";
+"invalid_link" = "Неправильний формат посилання";
+"network_error" = "Немає підключення до інтернету. Перевірте Wi-Fi або мобільні дані.";
+"session_expired" = "Ваше готельне посилання закінчилося. Додайте SMS-посилання знову.";
+"invalid_response" = "Не вдалося підключитися до готельної системи. Спробуйте знову.";
+"processing_link" = "Обробка посилання...";
+
+// Watch App
+"no_config" = "Немає конфігурації";
+"open_iphone_app" = "Відкрийте додаток iPhone для налаштування";
+"room" = "Кімната";
+"tap_to_unlock" = "Торкніться, щоб відкрити";
+"last_sync" = "Остання синхронізація: %@";
+"syncing" = "Синхронізація...";

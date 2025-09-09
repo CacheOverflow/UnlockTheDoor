@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  UnlockTheDoor
+  
+  French localization
+*/
+
+// Main Screen
+"app_title" = "Ouvrir la Porte";
+"app_subtitle" = "Accès Intelligent aux Portes d'Hôtel";
+
+// Configuration Status
+"door_configured" = "Porte Configurée";
+"room_label" = "Chambre: %@";
+"no_door_configured" = "Aucune Porte Configurée";
+"paste_sms_link" = "Collez votre lien SMS de l'hôtel pour commencer";
+
+// Buttons
+"add_sms_link" = "Ajouter Lien SMS";
+"remove_configuration" = "Supprimer Configuration";
+"unlock_door" = "Ouvrir la Porte";
+"unlocking" = "Ouverture...";
+"cancel" = "Annuler";
+"add_link" = "Ajouter Lien";
+
+// Status Messages
+"via_iphone" = "Via iPhone...";
+"direct_unlock" = "Direct...";
+"unlocked" = "Ouvert!";
+"setup_first" = "Configurer d'abord";
+"sync_iphone" = "Synchroniser iPhone";
+
+// Watch Status
+"watch_app_installed" = "App Watch Installée";
+"watch_app_not_installed" = "App Watch Non Installée";
+"watch_unlocking" = "Watch ouvre...";
+
+// Link Input Screen
+"add_hotel_link" = "Ajouter Lien Hôtel";
+"setup_instructions" = "Instructions de Configuration";
+"instruction_1" = "1. Trouvez le SMS de votre hôtel avec le lien d'ouverture";
+"instruction_2" = "2. Copiez et collez le lien ci-dessous";
+"example_link" = "Exemple: http://k3y.in/Gtxqb";
+"sms_link_label" = "Lien SMS";
+"paste_placeholder" = "Collez votre lien SMS de l'hôtel ici";
+
+// Errors
+"iphone_not_connected" = "iPhone non connecté";
+"please_refresh_iphone" = "Veuillez actualiser sur iPhone";
+"could_not_connect" = "Impossible de se connecter";
+"something_went_wrong" = "Une erreur s'est produite";
+"invalid_link" = "Format de lien invalide";
+"network_error" = "Pas de connexion Internet. Vérifiez le WiFi ou les données mobiles.";
+"session_expired" = "Votre lien hôtel a expiré. Veuillez ajouter le lien SMS à nouveau.";
+"invalid_response" = "Impossible de se connecter au système de l'hôtel. Veuillez réessayer.";
+"processing_link" = "Traitement du lien...";
+
+// Watch App
+"no_config" = "Aucune Configuration";
+"open_iphone_app" = "Ouvrir l'app iPhone pour configurer";
+"room" = "Chambre";
+"tap_to_unlock" = "Appuyez pour ouvrir";
+"last_sync" = "Dernière synchronisation: %@";
+"syncing" = "Synchronisation...";

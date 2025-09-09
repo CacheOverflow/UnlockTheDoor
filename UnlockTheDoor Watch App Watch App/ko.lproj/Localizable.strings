@@ -1,0 +1,25 @@
+// Main Screen
+"no_config" = "설정 없음";
+"open_iphone_app" = "설정하려면 iPhone 앱을 열어주세요";
+"room" = "방";
+"tap_to_unlock" = "탭하여 잠금 해제";
+
+// Status Messages
+"unlocking" = "잠금 해제 중...";
+"via_iphone" = "iPhone을 통해...";
+"direct_unlock" = "직접...";
+"unlocked" = "잠금 해제됨!";
+"setup_first" = "먼저 설정하세요";
+"sync_iphone" = "iPhone 동기화";
+"last_sync" = "마지막 동기화: %@";
+"syncing" = "동기화 중...";
+
+// Errors
+"iphone_not_connected" = "iPhone이 연결되지 않음";
+"please_refresh_iphone" = "iPhone에서 새로고침 해주세요";
+"could_not_connect" = "연결할 수 없습니다";
+"something_went_wrong" = "문제가 발생했습니다";
+
+// For Complications
+"app_title" = "문 열기";
+"unlock_door" = "문 열기";

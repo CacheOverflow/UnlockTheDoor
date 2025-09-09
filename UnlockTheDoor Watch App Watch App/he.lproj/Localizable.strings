@@ -1,0 +1,25 @@
+// Main Screen
+"no_config" = "אין הגדרה";
+"open_iphone_app" = "פתח את אפליקציית האייפון כדי להגדיר";
+"room" = "חדר";
+"tap_to_unlock" = "הקש כדי לפתוח";
+
+// Status Messages
+"unlocking" = "פותח...";
+"via_iphone" = "דרך האייפון...";
+"direct_unlock" = "ישיר...";
+"unlocked" = "נפתח!";
+"setup_first" = "הגדר תחילה";
+"sync_iphone" = "סנכרן אייפון";
+"last_sync" = "סנכרון אחרון: %@";
+"syncing" = "מסנכרן...";
+
+// Errors
+"iphone_not_connected" = "האייפון לא מחובר";
+"please_refresh_iphone" = "אנא רענן באייפון";
+"could_not_connect" = "לא ניתן להתחבר";
+"something_went_wrong" = "משהו השתבש";
+
+// For Complications
+"app_title" = "פתח את הדלת";
+"unlock_door" = "פתח את הדלת";

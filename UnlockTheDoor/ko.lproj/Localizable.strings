@@ -1,0 +1,57 @@
+// Main Screen
+"app_title" = "문 열기";
+"app_subtitle" = "스마트 호텔 도어 액세스";
+
+// Configuration Status
+"door_configured" = "문 설정됨";
+"room_label" = "방: %@";
+"no_door_configured" = "설정된 문 없음";
+"paste_sms_link" = "호텔 SMS 링크를 붙여넣어 시작하세요";
+
+// Buttons
+"add_sms_link" = "SMS 링크 추가";
+"remove_configuration" = "문 설정 제거";
+"unlock_door" = "문 열기";
+"unlocking" = "열고 있습니다...";
+"cancel" = "취소";
+"add_link" = "링크 추가";
+
+// Status Messages
+"via_iphone" = "iPhone을 통해...";
+"direct_unlock" = "직접...";
+"unlocked" = "열렸습니다!";
+"setup_first" = "먼저 설정하세요";
+"sync_iphone" = "iPhone 동기화";
+
+// Watch Status
+"watch_app_installed" = "워치 앱 설치됨";
+"watch_app_not_installed" = "워치 앱 설치되지 않음";
+"watch_unlocking" = "워치에서 여는 중...";
+
+// Link Input Screen
+"add_hotel_link" = "호텔 링크 추가";
+"setup_instructions" = "설정 방법";
+"instruction_1" = "1. 문 잠금해제 링크가 포함된 호텔 SMS를 찾으세요";
+"instruction_2" = "2. 아래에 링크를 복사하여 붙여넣으세요";
+"example_link" = "예시: http://k3y.in/Gtxqb";
+"sms_link_label" = "SMS 링크";
+"paste_placeholder" = "호텔 SMS 링크를 여기에 붙여넣으세요";
+
+// Errors
+"iphone_not_connected" = "iPhone이 연결되지 않음";
+"please_refresh_iphone" = "iPhone에서 새로고침해주세요";
+"could_not_connect" = "연결할 수 없음";
+"something_went_wrong" = "문제가 발생했습니다";
+"invalid_link" = "잘못된 링크 형식";
+"network_error" = "인터넷 연결이 없습니다. WiFi 또는 모바일 데이터를 확인해주세요.";
+"session_expired" = "호텔 링크가 만료되었습니다. SMS 링크를 다시 추가해주세요.";
+"invalid_response" = "호텔 시스템에 연결할 수 없습니다. 다시 시도해주세요.";
+"processing_link" = "링크 처리 중...";
+
+// Watch App
+"no_config" = "설정 없음";
+"open_iphone_app" = "설정하려면 iPhone 앱을 열어주세요";
+"room" = "방";
+"tap_to_unlock" = "탭하여 열기";
+"last_sync" = "마지막 동기화: %@";
+"syncing" = "동기화 중...";

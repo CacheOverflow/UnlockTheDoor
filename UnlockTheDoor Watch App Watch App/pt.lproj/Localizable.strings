@@ -1,0 +1,32 @@
+/* 
+  Localizable.strings
+  UnlockTheDoor Watch App
+  
+  Portuguese localization
+*/
+
+// Main Screen
+"no_config" = "Sem Configuração";
+"open_iphone_app" = "Abra o app iPhone para configurar";
+"room" = "Quarto";
+"tap_to_unlock" = "Toque para abrir";
+
+// Status Messages
+"unlocking" = "Abrindo...";
+"via_iphone" = "Via iPhone...";
+"direct_unlock" = "Direto...";
+"unlocked" = "Aberto!";
+"setup_first" = "Configure primeiro";
+"sync_iphone" = "Sincronizar iPhone";
+"last_sync" = "Última sincronização: %@";
+"syncing" = "Sincronizando...";
+
+// Errors
+"iphone_not_connected" = "iPhone não conectado";
+"please_refresh_iphone" = "Por favor atualize no iPhone";
+"could_not_connect" = "Não foi possível conectar";
+"something_went_wrong" = "Algo deu errado";
+
+// For Complications
+"app_title" = "Abrir a Porta";
+"unlock_door" = "Abrir Porta";

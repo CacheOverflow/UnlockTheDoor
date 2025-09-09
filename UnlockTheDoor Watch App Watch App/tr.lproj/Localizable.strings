@@ -1,0 +1,25 @@
+// Main Screen
+"no_config" = "Yapılandırma Yok";
+"open_iphone_app" = "Yapılandırmak için iPhone uygulamasını açın";
+"room" = "Oda";
+"tap_to_unlock" = "Kilidini açmak için dokunun";
+
+// Status Messages
+"unlocking" = "Kilit açılıyor...";
+"via_iphone" = "iPhone üzerinden...";
+"direct_unlock" = "Doğrudan...";
+"unlocked" = "Kilit açıldı!";
+"setup_first" = "Önce kurulum yapın";
+"sync_iphone" = "iPhone'u senkronize et";
+"last_sync" = "Son senkronizasyon: %@";
+"syncing" = "Senkronize ediliyor...";
+
+// Errors
+"iphone_not_connected" = "iPhone bağlı değil";
+"please_refresh_iphone" = "Lütfen iPhone'da yenileyin";
+"could_not_connect" = "Bağlanılamadı";
+"something_went_wrong" = "Bir şeyler ters gitti";
+
+// For Complications
+"app_title" = "Kapıyı Aç";
+"unlock_door" = "Kapıyı Aç";

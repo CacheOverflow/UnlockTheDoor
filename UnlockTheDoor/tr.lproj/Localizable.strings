@@ -1,0 +1,57 @@
+// Main Screen
+"app_title" = "Kapıyı Aç";
+"app_subtitle" = "Akıllı Otel Kapı Erişimi";
+
+// Configuration Status
+"door_configured" = "Kapı Yapılandırıldı";
+"room_label" = "Oda: %@";
+"no_door_configured" = "Yapılandırılmış Kapı Yok";
+"paste_sms_link" = "Başlamak için otel SMS bağlantınızı yapıştırın";
+
+// Buttons
+"add_sms_link" = "SMS Bağlantısı Ekle";
+"remove_configuration" = "Kapı Yapılandırmasını Kaldır";
+"unlock_door" = "Kapıyı Aç";
+"unlocking" = "Açılıyor...";
+"cancel" = "İptal";
+"add_link" = "Bağlantı Ekle";
+
+// Status Messages
+"via_iphone" = "iPhone üzerinden...";
+"direct_unlock" = "Doğrudan...";
+"unlocked" = "Açıldı!";
+"setup_first" = "Önce kurulum yapın";
+"sync_iphone" = "iPhone'u Senkronize Et";
+
+// Watch Status
+"watch_app_installed" = "Saat Uygulaması Yüklü";
+"watch_app_not_installed" = "Saat Uygulaması Yüklü Değil";
+"watch_unlocking" = "Saat açıyor...";
+
+// Link Input Screen
+"add_hotel_link" = "Otel Bağlantısı Ekle";
+"setup_instructions" = "Kurulum Talimatları";
+"instruction_1" = "1. Otelinizden gelen kapı açma bağlantılı SMS'i bulun";
+"instruction_2" = "2. Bağlantıyı aşağıya kopyalayıp yapıştırın";
+"example_link" = "Örnek: http://k3y.in/Gtxqb";
+"sms_link_label" = "SMS Bağlantısı";
+"paste_placeholder" = "Otel SMS bağlantınızı buraya yapıştırın";
+
+// Errors
+"iphone_not_connected" = "iPhone bağlı değil";
+"please_refresh_iphone" = "Lütfen iPhone'da yenileyin";
+"could_not_connect" = "Bağlanamadı";
+"something_went_wrong" = "Bir şeyler ters gitti";
+"invalid_link" = "Geçersiz bağlantı formatı";
+"network_error" = "İnternet bağlantısı yok. Wi-Fi veya hücresel verilerinizi kontrol edin.";
+"session_expired" = "Otel bağlantınızın süresi doldu. SMS bağlantısını tekrar ekleyin.";
+"invalid_response" = "Otel sistemine bağlanılamadı. Lütfen tekrar deneyin.";
+"processing_link" = "Bağlantı işleniyor...";
+
+// Watch App
+"no_config" = "Yapılandırma Yok";
+"open_iphone_app" = "Yapılandırma için iPhone uygulamasını açın";
+"room" = "Oda";
+"tap_to_unlock" = "Açmak için dokunun";
+"last_sync" = "Son senkronizasyon: %@";
+"syncing" = "Senkronize ediliyor...";

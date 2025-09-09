@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  UnlockTheDoor
+  
+  Spanish localization
+*/
+
+// Main Screen
+"app_title" = "Abrir la Puerta";
+"app_subtitle" = "Acceso Inteligente a Puertas de Hotel";
+
+// Configuration Status
+"door_configured" = "Puerta Configurada";
+"room_label" = "Habitación: %@";
+"no_door_configured" = "Sin Puerta Configurada";
+"paste_sms_link" = "Pegue su enlace SMS del hotel para comenzar";
+
+// Buttons
+"add_sms_link" = "Añadir Enlace SMS";
+"remove_configuration" = "Eliminar Configuración";
+"unlock_door" = "Abrir Puerta";
+"unlocking" = "Abriendo...";
+"cancel" = "Cancelar";
+"add_link" = "Añadir Enlace";
+
+// Status Messages
+"via_iphone" = "Vía iPhone...";
+"direct_unlock" = "Directo...";
+"unlocked" = "¡Abierto!";
+"setup_first" = "Configurar primero";
+"sync_iphone" = "Sincronizar iPhone";
+
+// Watch Status
+"watch_app_installed" = "App Watch Instalada";
+"watch_app_not_installed" = "App Watch No Instalada";
+"watch_unlocking" = "Watch abriendo...";
+
+// Link Input Screen
+"add_hotel_link" = "Añadir Enlace Hotel";
+"setup_instructions" = "Instrucciones de Configuración";
+"instruction_1" = "1. Encuentre el SMS de su hotel con el enlace de apertura";
+"instruction_2" = "2. Copie y pegue el enlace abajo";
+"example_link" = "Ejemplo: http://k3y.in/Gtxqb";
+"sms_link_label" = "Enlace SMS";
+"paste_placeholder" = "Pegue aquí su enlace SMS del hotel";
+
+// Errors
+"iphone_not_connected" = "iPhone no conectado";
+"please_refresh_iphone" = "Por favor actualice en iPhone";
+"could_not_connect" = "No se pudo conectar";
+"something_went_wrong" = "Algo salió mal";
+"invalid_link" = "Formato de enlace inválido";
+"network_error" = "Sin conexión a Internet. Verifique WiFi o datos móviles.";
+"session_expired" = "Su enlace del hotel ha caducado. Por favor añada el enlace SMS de nuevo.";
+"invalid_response" = "No se pudo conectar al sistema del hotel. Por favor intente de nuevo.";
+"processing_link" = "Procesando enlace...";
+
+// Watch App
+"no_config" = "Sin Configuración";
+"open_iphone_app" = "Abra la app iPhone para configurar";
+"room" = "Habitación";
+"tap_to_unlock" = "Toque para abrir";
+"last_sync" = "Última sincronización: %@";
+"syncing" = "Sincronizando...";

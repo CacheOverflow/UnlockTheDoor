@@ -1,0 +1,25 @@
+// Main Screen
+"no_config" = "无配置";
+"open_iphone_app" = "打开iPhone应用程序进行配置";
+"room" = "房间";
+"tap_to_unlock" = "点击解锁";
+
+// Status Messages
+"unlocking" = "解锁中...";
+"via_iphone" = "通过iPhone...";
+"direct_unlock" = "直接...";
+"unlocked" = "已解锁！";
+"setup_first" = "先设置";
+"sync_iphone" = "同步iPhone";
+"last_sync" = "上次同步：%@";
+"syncing" = "同步中...";
+
+// Errors
+"iphone_not_connected" = "iPhone未连接";
+"please_refresh_iphone" = "请在iPhone上刷新";
+"could_not_connect" = "无法连接";
+"something_went_wrong" = "出现错误";
+
+// For Complications
+"app_title" = "开门";
+"unlock_door" = "开门";

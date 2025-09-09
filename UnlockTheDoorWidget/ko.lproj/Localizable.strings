@@ -1,0 +1,5 @@
+// Widget Display
+"widget_name" = "문 열기";
+"widget_description" = "빠른 잠금 해제 액세스";
+"tap_to_unlock" = "탭하여 잠금 해제";
+"unlock" = "잠금 해제";

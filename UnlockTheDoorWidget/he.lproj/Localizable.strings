@@ -1,0 +1,5 @@
+// Widget Display
+"widget_name" = "פתח את הדלת";
+"widget_description" = "גישה מהירה לפתיחה";
+"tap_to_unlock" = "הקש כדי לפתוח";
+"unlock" = "פתח";

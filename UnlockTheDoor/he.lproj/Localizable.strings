@@ -1,0 +1,57 @@
+// Main Screen
+"app_title" = "פתח את הדלת";
+"app_subtitle" = "גישה חכמה לדלתות מלון";
+
+// Configuration Status
+"door_configured" = "דלת מוגדרת";
+"room_label" = "חדר: %@";
+"no_door_configured" = "אין דלת מוגדרת";
+"paste_sms_link" = "הדבק את קישור ה-SMS של המלון כדי להתחיל";
+
+// Buttons
+"add_sms_link" = "הוסף קישור SMS";
+"remove_configuration" = "הסר הגדרת דלת";
+"unlock_door" = "פתח דלת";
+"unlocking" = "פותח...";
+"cancel" = "ביטול";
+"add_link" = "הוסף קישור";
+
+// Status Messages
+"via_iphone" = "דרך iPhone...";
+"direct_unlock" = "ישיר...";
+"unlocked" = "נפתח!";
+"setup_first" = "הגדר קודם";
+"sync_iphone" = "סנכרן iPhone";
+
+// Watch Status
+"watch_app_installed" = "אפליקציית השעון מותקנת";
+"watch_app_not_installed" = "אפליקציית השעון לא מותקנת";
+"watch_unlocking" = "השעון פותח...";
+
+// Link Input Screen
+"add_hotel_link" = "הוסף קישור מלון";
+"setup_instructions" = "הוראות הגדרה";
+"instruction_1" = "1. מצא את ה-SMS מהמלון עם קישור פתיחת הדלת";
+"instruction_2" = "2. העתק והדבק את הקישור למטה";
+"example_link" = "דוגמה: http://k3y.in/Gtxqb";
+"sms_link_label" = "קישור SMS";
+"paste_placeholder" = "הדבק את קישור ה-SMS של המלון כאן";
+
+// Errors
+"iphone_not_connected" = "iPhone לא מחובר";
+"please_refresh_iphone" = "אנא רענן ב-iPhone";
+"could_not_connect" = "לא ניתן להתחבר";
+"something_went_wrong" = "משהו השתבש";
+"invalid_link" = "פורמט קישור לא תקין";
+"network_error" = "אין חיבור לאינטרנט. בדוק את ה-WiFi או הנתונים הסלולריים.";
+"session_expired" = "קישור המלון פג. הוסף את קישור ה-SMS שוב.";
+"invalid_response" = "לא ניתן להתחבר למערכת המלון. נסה שוב.";
+"processing_link" = "מעבד קישור...";
+
+// Watch App
+"no_config" = "אין הגדרה";
+"open_iphone_app" = "פתח אפליקציית iPhone להגדרה";
+"room" = "חדר";
+"tap_to_unlock" = "הקש כדי לפתוח";
+"last_sync" = "סנכרון אחרון: %@";
+"syncing" = "מסנכרן...";

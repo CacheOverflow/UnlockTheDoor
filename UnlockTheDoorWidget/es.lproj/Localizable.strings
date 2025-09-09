@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  UnlockTheDoorWidget
+  
+  Spanish localization
+*/
+
+// Widget Display
+"widget_name" = "Abrir la Puerta";
+"widget_description" = "Acceso rápido a la puerta";
+"tap_to_unlock" = "Toque para abrir";
+"unlock" = "Abrir";

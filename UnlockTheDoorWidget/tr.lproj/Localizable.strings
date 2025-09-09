@@ -1,0 +1,5 @@
+// Widget Display
+"widget_name" = "Kapıyı Aç";
+"widget_description" = "Hızlı kilit açma erişimi";
+"tap_to_unlock" = "Kilidini açmak için dokunun";
+"unlock" = "Aç";

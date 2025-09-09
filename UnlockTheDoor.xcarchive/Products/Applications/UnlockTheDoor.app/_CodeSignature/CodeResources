@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<data>
+		hKynfHs0067+D3tf6jCNM2NnuAg=
+		</data>
+		<key>Assets.car</key>
+		<data>
+		0vMAFHEZmLw03QPrFThfbQOZ/ns=
+		</data>
+		<key>Info.plist</key>
+		<data>
+		Ou6ooUCkhDZfZSjSj+8TYmmV7gc=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/Assets.car</key>
+		<data>
+		Zisvk2ZEevFqVBWAMsSQ6Lwr5AA=
+		</data>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/Info.plist</key>
+		<data>
+		jTXvO4L1UmRFtYD2F0aosxEjn50=
+		</data>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/PlugIns/UnlockTheDoorWidgetExtension.appex/Info.plist</key>
+		<data>
+		zc665C4wlR6PNoKncJlCIPuhgEQ=
+		</data>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/PlugIns/UnlockTheDoorWidgetExtension.appex/UnlockTheDoorWidgetExtension</key>
+		<data>
+		IGEkQX56YThf1szcZGhJLmXMIKM=
+		</data>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/PlugIns/UnlockTheDoorWidgetExtension.appex/_CodeSignature/CodeResources</key>
+		<data>
+		46NGITQS7yf5GjF+20DHuVzAz/Y=
+		</data>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/PlugIns/UnlockTheDoorWidgetExtension.appex/embedded.mobileprovision</key>
+		<data>
+		0pJ1ibvX3WkntLg185bQOWR6XK4=
+		</data>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/UnlockTheDoor Watch App Watch App</key>
+		<data>
+		EnoVeqHhTxUCd7bhZf/BEgskVKo=
+		</data>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/_CodeSignature/CodeResources</key>
+		<data>
+		OsFxtSKwwSAqQhXVj4LAh2GdmNA=
+		</data>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/embedded.mobileprovision</key>
+		<data>
+		m5mP34IY04Jeamjd3iSrm+huD7o=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		TZLBbAQrQiiFDrHPz0P6p128eQ0=
+		</data>
+	</dict>
+	<key>files2</key>
+	<dict>
+		<key>AppIcon60x60@2x.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k1E1pgchMODrXusULRc/ygEMFtZXRWxIq0PUAJHaGwE=
+			</data>
+		</dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vpWEK29ve8KwVWsgcTAP81WTUhWO+RYkWcszS0ID3j8=
+			</data>
+		</dict>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/Assets.car</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			JGvDX/PJuGe2OYLC2zXu5t5yUVPmIbWqfmlaE6GsGE8=
+			</data>
+		</dict>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XDuluDx9cZxBZ8G4BTO81Eb3RZ7RlqZyg/nHKly7JCA=
+			</data>
+		</dict>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/PkgInfo</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			glAhkclISwTWhTdPmHmgBmBpxJuKyuegSwHTjQfo7KA=
+			</data>
+		</dict>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/PlugIns/UnlockTheDoorWidgetExtension.appex/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/QmiHUS+NkFt4YMccSKNR22h/fDVydBgeOv9dncjVmg=
+			</data>
+		</dict>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/PlugIns/UnlockTheDoorWidgetExtension.appex/UnlockTheDoorWidgetExtension</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dZUyNhE849VXEo89DbFj9BL3KbC/sJ17qYwncWuzDxQ=
+			</data>
+		</dict>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/PlugIns/UnlockTheDoorWidgetExtension.appex/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			dGdNkLyZbjvMasQH0kdgC2dKtr1dMbcP3pl7gLQ6t0M=
+			</data>
+		</dict>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/PlugIns/UnlockTheDoorWidgetExtension.appex/embedded.mobileprovision</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GxfCOqCEFNPLZ8N4BX8lALTjv2r4YiQcQIGWqf7YJU0=
+			</data>
+		</dict>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/UnlockTheDoor Watch App Watch App</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			XZN2UKmxR3IJYvLG6OscththetLxCUcH/88InplcSYA=
+			</data>
+		</dict>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A8E5rY659YZYY8PIgt0oGQukptd7U0lG+gN6C7/0o1I=
+			</data>
+		</dict>
+		<key>Watch/UnlockTheDoor Watch App Watch App.app/embedded.mobileprovision</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			z0zEpknE5OPb80r7fAuXG3Cw3Tg006mXQA6RldkPttA=
+			</data>
+		</dict>
+		<key>embedded.mobileprovision</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			A4CnlTt+T064tGP30tWIQXrVS0TlD2OK9me1jzB5++8=
+			</data>
+		</dict>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^version.plist$</key>
+		<true/>
+	</dict>
+	<key>rules2</key>
+	<dict>
+		<key>.*\.dSYM($|/)</key>
+		<dict>
+			<key>weight</key>
+			<real>11</real>
+		</dict>
+		<key>^(.*/)?\.DS_Store$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>2000</real>
+		</dict>
+		<key>^.*</key>
+		<true/>
+		<key>^.*\.lproj/</key>
+		<dict>
+			<key>optional</key>
+			<true/>
+			<key>weight</key>
+			<real>1000</real>
+		</dict>
+		<key>^.*\.lproj/locversion.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>1100</real>
+		</dict>
+		<key>^Base\.lproj/</key>
+		<dict>
+			<key>weight</key>
+			<real>1010</real>
+		</dict>
+		<key>^Info\.plist$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^PkgInfo$</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^embedded\.provisionprofile$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+		<key>^version\.plist$</key>
+		<dict>
+			<key>weight</key>
+			<real>20</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

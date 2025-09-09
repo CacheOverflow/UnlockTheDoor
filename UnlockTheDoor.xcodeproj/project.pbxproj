@@ -6,7 +6,21 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8E39A97E2E6EB20C009B6486 /* UnlockTheDoor Watch App Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8EBD1F542E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8EBD1F972E6E262C00B29387 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD1F962E6E262C00B29387 /* WidgetKit.framework */; };
+		8EBD1F992E6E262C00B29387 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8EBD1F982E6E262C00B29387 /* SwiftUI.framework */; };
+		8EBD1FA22E6E262D00B29387 /* UnlockTheDoorWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8EBD1F942E6E262C00B29387 /* UnlockTheDoorWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
+		8E39A97F2E6EB2A1009B6486 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBD1F0F2E6DF6BA00B29387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBD1F532E6DF7E800B29387;
+			remoteInfo = "UnlockTheDoor Watch App Watch App";
+		};
 		8EBD1F252E6DF6BC00B29387 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8EBD1F0F2E6DF6BA00B29387 /* Project object */;
@@ -21,17 +35,96 @@
 			remoteGlobalIDString = 8EBD1F162E6DF6BA00B29387;
 			remoteInfo = UnlockTheDoor;
 		};
+		8EBD1F642E6DF7EA00B29387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBD1F0F2E6DF6BA00B29387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBD1F532E6DF7E800B29387;
+			remoteInfo = "UnlockTheDoor Watch App Watch App";
+		};
+		8EBD1F6E2E6DF7EA00B29387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBD1F0F2E6DF6BA00B29387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBD1F532E6DF7E800B29387;
+			remoteInfo = "UnlockTheDoor Watch App Watch App";
+		};
+		8EBD1FA02E6E262D00B29387 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8EBD1F0F2E6DF6BA00B29387 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8EBD1F932E6E262C00B29387;
+			remoteInfo = UnlockTheDoorWidgetExtension;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E39A9462E6E332E009B6486 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8E39A97E2E6EB20C009B6486 /* UnlockTheDoor Watch App Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1FA72E6E262D00B29387 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8EBD1FA22E6E262D00B29387 /* UnlockTheDoorWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		8EBD1F172E6DF6BA00B29387 /* UnlockTheDoor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnlockTheDoor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBD1F242E6DF6BC00B29387 /* UnlockTheDoorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnlockTheDoorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8EBD1F2E2E6DF6BC00B29387 /* UnlockTheDoorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnlockTheDoorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD1F542E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "UnlockTheDoor Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD1F632E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnlockTheDoor Watch App Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD1F6D2E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UnlockTheDoor Watch App Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD1F942E6E262C00B29387 /* UnlockTheDoorWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = UnlockTheDoorWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EBD1F962E6E262C00B29387 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8EBD1F982E6E262C00B29387 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8EBD1F8E2E6E130D00B29387 /* Exceptions for "UnlockTheDoor" folder in "UnlockTheDoor" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8EBD1F162E6DF6BA00B29387 /* UnlockTheDoor */;
+		};
+		8EBD1F8F2E6E239A00B29387 /* Exceptions for "UnlockTheDoor Watch App Watch App" folder in "UnlockTheDoor Watch App Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8EBD1F532E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App */;
+		};
+		8EBD1FA62E6E262D00B29387 /* Exceptions for "UnlockTheDoorWidget" folder in "UnlockTheDoorWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8EBD1F932E6E262C00B29387 /* UnlockTheDoorWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8EBD1F192E6DF6BA00B29387 /* UnlockTheDoor */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8EBD1F8E2E6E130D00B29387 /* Exceptions for "UnlockTheDoor" folder in "UnlockTheDoor" target */,
+			);
 			path = UnlockTheDoor;
 			sourceTree = "<group>";
 		};
@@ -43,6 +136,32 @@
 		8EBD1F312E6DF6BC00B29387 /* UnlockTheDoorUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = UnlockTheDoorUITests;
+			sourceTree = "<group>";
+		};
+		8EBD1F582E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8EBD1F8F2E6E239A00B29387 /* Exceptions for "UnlockTheDoor Watch App Watch App" folder in "UnlockTheDoor Watch App Watch App" target */,
+			);
+			path = "UnlockTheDoor Watch App Watch App";
+			sourceTree = "<group>";
+		};
+		8EBD1F662E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "UnlockTheDoor Watch App Watch AppTests";
+			sourceTree = "<group>";
+		};
+		8EBD1F702E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "UnlockTheDoor Watch App Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		8EBD1F9A2E6E262C00B29387 /* UnlockTheDoorWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8EBD1FA62E6E262D00B29387 /* Exceptions for "UnlockTheDoorWidget" folder in "UnlockTheDoorWidgetExtension" target */,
+			);
+			path = UnlockTheDoorWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -69,6 +188,36 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8EBD1F512E6DF7E800B29387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F602E6DF7EA00B29387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F6A2E6DF7EA00B29387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F912E6E262C00B29387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EBD1F992E6E262C00B29387 /* SwiftUI.framework in Frameworks */,
+				8EBD1F972E6E262C00B29387 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +227,11 @@
 				8EBD1F192E6DF6BA00B29387 /* UnlockTheDoor */,
 				8EBD1F272E6DF6BC00B29387 /* UnlockTheDoorTests */,
 				8EBD1F312E6DF6BC00B29387 /* UnlockTheDoorUITests */,
+				8EBD1F582E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App */,
+				8EBD1F662E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppTests */,
+				8EBD1F702E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppUITests */,
+				8EBD1F9A2E6E262C00B29387 /* UnlockTheDoorWidget */,
+				8EBD1F952E6E262C00B29387 /* Frameworks */,
 				8EBD1F182E6DF6BA00B29387 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -88,8 +242,21 @@
 				8EBD1F172E6DF6BA00B29387 /* UnlockTheDoor.app */,
 				8EBD1F242E6DF6BC00B29387 /* UnlockTheDoorTests.xctest */,
 				8EBD1F2E2E6DF6BC00B29387 /* UnlockTheDoorUITests.xctest */,
+				8EBD1F542E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App.app */,
+				8EBD1F632E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppTests.xctest */,
+				8EBD1F6D2E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppUITests.xctest */,
+				8EBD1F942E6E262C00B29387 /* UnlockTheDoorWidgetExtension.appex */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8EBD1F952E6E262C00B29387 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8EBD1F962E6E262C00B29387 /* WidgetKit.framework */,
+				8EBD1F982E6E262C00B29387 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -102,10 +269,12 @@
 				8EBD1F132E6DF6BA00B29387 /* Sources */,
 				8EBD1F142E6DF6BA00B29387 /* Frameworks */,
 				8EBD1F152E6DF6BA00B29387 /* Resources */,
+				8E39A9462E6E332E009B6486 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8E39A9802E6EB2A1009B6486 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				8EBD1F192E6DF6BA00B29387 /* UnlockTheDoor */,
@@ -163,6 +332,98 @@
 			productReference = 8EBD1F2E2E6DF6BC00B29387 /* UnlockTheDoorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		8EBD1F532E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBD1F752E6DF7EA00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoor Watch App Watch App" */;
+			buildPhases = (
+				8EBD1F502E6DF7E800B29387 /* Sources */,
+				8EBD1F512E6DF7E800B29387 /* Frameworks */,
+				8EBD1F522E6DF7E800B29387 /* Resources */,
+				8EBD1FA72E6E262D00B29387 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBD1FA12E6E262D00B29387 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EBD1F582E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App */,
+			);
+			name = "UnlockTheDoor Watch App Watch App";
+			packageProductDependencies = (
+			);
+			productName = "UnlockTheDoor Watch App Watch App";
+			productReference = 8EBD1F542E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8EBD1F622E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBD1F7C2E6DF7EA00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoor Watch App Watch AppTests" */;
+			buildPhases = (
+				8EBD1F5F2E6DF7EA00B29387 /* Sources */,
+				8EBD1F602E6DF7EA00B29387 /* Frameworks */,
+				8EBD1F612E6DF7EA00B29387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBD1F652E6DF7EA00B29387 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EBD1F662E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppTests */,
+			);
+			name = "UnlockTheDoor Watch App Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "UnlockTheDoor Watch App Watch AppTests";
+			productReference = 8EBD1F632E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8EBD1F6C2E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBD1F7F2E6DF7EA00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoor Watch App Watch AppUITests" */;
+			buildPhases = (
+				8EBD1F692E6DF7EA00B29387 /* Sources */,
+				8EBD1F6A2E6DF7EA00B29387 /* Frameworks */,
+				8EBD1F6B2E6DF7EA00B29387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8EBD1F6F2E6DF7EA00B29387 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8EBD1F702E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppUITests */,
+			);
+			name = "UnlockTheDoor Watch App Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "UnlockTheDoor Watch App Watch AppUITests";
+			productReference = 8EBD1F6D2E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		8EBD1F932E6E262C00B29387 /* UnlockTheDoorWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8EBD1FA32E6E262D00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoorWidgetExtension" */;
+			buildPhases = (
+				8EBD1F902E6E262C00B29387 /* Sources */,
+				8EBD1F912E6E262C00B29387 /* Frameworks */,
+				8EBD1F922E6E262C00B29387 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8EBD1F9A2E6E262C00B29387 /* UnlockTheDoorWidget */,
+			);
+			name = UnlockTheDoorWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = UnlockTheDoorWidgetExtension;
+			productReference = 8EBD1F942E6E262C00B29387 /* UnlockTheDoorWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -184,6 +445,20 @@
 						CreatedOnToolsVersion = 16.4;
 						TestTargetID = 8EBD1F162E6DF6BA00B29387;
 					};
+					8EBD1F532E6DF7E800B29387 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8EBD1F622E6DF7EA00B29387 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8EBD1F532E6DF7E800B29387;
+					};
+					8EBD1F6C2E6DF7EA00B29387 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 8EBD1F532E6DF7E800B29387;
+					};
+					8EBD1F932E6E262C00B29387 = {
+						CreatedOnToolsVersion = 16.4;
+					};
 				};
 			};
 			buildConfigurationList = 8EBD1F122E6DF6BA00B29387 /* Build configuration list for PBXProject "UnlockTheDoor" */;
@@ -192,6 +467,18 @@
 			knownRegions = (
 				en,
 				Base,
+				ro,
+				de,
+				fr,
+				es,
+				pt,
+				uk,
+				bg,
+				tr,
+				he,
+				zh,
+				ja,
+				ko,
 			);
 			mainGroup = 8EBD1F0E2E6DF6BA00B29387;
 			minimizedProjectReferenceProxies = 1;
@@ -203,6 +490,10 @@
 				8EBD1F162E6DF6BA00B29387 /* UnlockTheDoor */,
 				8EBD1F232E6DF6BC00B29387 /* UnlockTheDoorTests */,
 				8EBD1F2D2E6DF6BC00B29387 /* UnlockTheDoorUITests */,
+				8EBD1F532E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App */,
+				8EBD1F622E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppTests */,
+				8EBD1F6C2E6DF7EA00B29387 /* UnlockTheDoor Watch App Watch AppUITests */,
+				8EBD1F932E6E262C00B29387 /* UnlockTheDoorWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -223,6 +514,34 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		8EBD1F2C2E6DF6BC00B29387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F522E6DF7E800B29387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F612E6DF7EA00B29387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F6B2E6DF7EA00B29387 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F922E6E262C00B29387 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,9 +572,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8EBD1F502E6DF7E800B29387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F5F2E6DF7EA00B29387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F692E6DF7EA00B29387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EBD1F902E6E262C00B29387 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8E39A9802E6EB2A1009B6486 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBD1F532E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App */;
+			targetProxy = 8E39A97F2E6EB2A1009B6486 /* PBXContainerItemProxy */;
+		};
 		8EBD1F262E6DF6BC00B29387 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8EBD1F162E6DF6BA00B29387 /* UnlockTheDoor */;
@@ -265,6 +617,21 @@
 			isa = PBXTargetDependency;
 			target = 8EBD1F162E6DF6BA00B29387 /* UnlockTheDoor */;
 			targetProxy = 8EBD1F2F2E6DF6BC00B29387 /* PBXContainerItemProxy */;
+		};
+		8EBD1F652E6DF7EA00B29387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBD1F532E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App */;
+			targetProxy = 8EBD1F642E6DF7EA00B29387 /* PBXContainerItemProxy */;
+		};
+		8EBD1F6F2E6DF7EA00B29387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBD1F532E6DF7E800B29387 /* UnlockTheDoor Watch App Watch App */;
+			targetProxy = 8EBD1F6E2E6DF7EA00B29387 /* PBXContainerItemProxy */;
+		};
+		8EBD1FA12E6E262D00B29387 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8EBD1F932E6E262C00B29387 /* UnlockTheDoorWidgetExtension */;
+			targetProxy = 8EBD1FA02E6E262D00B29387 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -395,16 +762,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UnlockTheDoor/UnlockTheDoor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5N9SFP2NP;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = UnlockTheDoor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,9 +782,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -423,16 +797,19 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = UnlockTheDoor/UnlockTheDoor.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N5N9SFP2NP;
 				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = UnlockTheDoor/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -440,9 +817,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -518,6 +899,206 @@
 			};
 			name = Release;
 		};
+		8EBD1F762E6DF7EA00B29387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "UnlockTheDoor Watch App Watch App/UnlockTheDoor Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "UnlockTheDoor Watch App Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UnlockTheDoor Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		8EBD1F772E6DF7EA00B29387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "UnlockTheDoor Watch App Watch App/UnlockTheDoor Watch App.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "UnlockTheDoor Watch App Watch App/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "UnlockTheDoor Watch App";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		8EBD1F7D2E6DF7EA00B29387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor.watchkitapp.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnlockTheDoor Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnlockTheDoor Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		8EBD1F7E2E6DF7EA00B29387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor.watchkitapp.Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UnlockTheDoor Watch App Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/UnlockTheDoor Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		8EBD1F802E6DF7EA00B29387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor.watchkitapp.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "UnlockTheDoor Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Debug;
+		};
+		8EBD1F812E6DF7EA00B29387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor.watchkitapp.UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "UnlockTheDoor Watch App Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.5;
+			};
+			name = Release;
+		};
+		8EBD1FA42E6E262D00B29387 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = UnlockTheDoorWidget/UnlockTheDoorWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnlockTheDoorWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UnlockTheDoorWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor.watchkitapp.UnlockTheDoorWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		8EBD1FA52E6E262D00B29387 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = UnlockTheDoorWidget/UnlockTheDoorWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N5N9SFP2NP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UnlockTheDoorWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = UnlockTheDoorWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cacheoverflow.UnlockTheDoor.watchkitapp.UnlockTheDoorWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -553,6 +1134,42 @@
 			buildConfigurations = (
 				8EBD1F3F2E6DF6BC00B29387 /* Debug */,
 				8EBD1F402E6DF6BC00B29387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBD1F752E6DF7EA00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoor Watch App Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD1F762E6DF7EA00B29387 /* Debug */,
+				8EBD1F772E6DF7EA00B29387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBD1F7C2E6DF7EA00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoor Watch App Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD1F7D2E6DF7EA00B29387 /* Debug */,
+				8EBD1F7E2E6DF7EA00B29387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBD1F7F2E6DF7EA00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoor Watch App Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD1F802E6DF7EA00B29387 /* Debug */,
+				8EBD1F812E6DF7EA00B29387 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8EBD1FA32E6E262D00B29387 /* Build configuration list for PBXNativeTarget "UnlockTheDoorWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8EBD1FA42E6E262D00B29387 /* Debug */,
+				8EBD1FA52E6E262D00B29387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

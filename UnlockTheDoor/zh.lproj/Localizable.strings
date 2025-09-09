@@ -1,0 +1,57 @@
+// Main Screen
+"app_title" = "开门";
+"app_subtitle" = "智能酒店门禁";
+
+// Configuration Status
+"door_configured" = "门已配置";
+"room_label" = "房间：%@";
+"no_door_configured" = "未配置门";
+"paste_sms_link" = "粘贴您的酒店短信链接开始使用";
+
+// Buttons
+"add_sms_link" = "添加短信链接";
+"remove_configuration" = "移除门配置";
+"unlock_door" = "开门";
+"unlocking" = "开门中...";
+"cancel" = "取消";
+"add_link" = "添加链接";
+
+// Status Messages
+"via_iphone" = "通过 iPhone...";
+"direct_unlock" = "直接...";
+"unlocked" = "已开启！";
+"setup_first" = "请先设置";
+"sync_iphone" = "同步 iPhone";
+
+// Watch Status
+"watch_app_installed" = "手表应用已安装";
+"watch_app_not_installed" = "手表应用未安装";
+"watch_unlocking" = "手表开门中...";
+
+// Link Input Screen
+"add_hotel_link" = "添加酒店链接";
+"setup_instructions" = "设置说明";
+"instruction_1" = "1. 找到酒店发送的包含门锁链接的短信";
+"instruction_2" = "2. 复制并粘贴下方链接";
+"example_link" = "示例：http://k3y.in/Gtxqb";
+"sms_link_label" = "短信链接";
+"paste_placeholder" = "在此粘贴您的酒店短信链接";
+
+// Errors
+"iphone_not_connected" = "iPhone 未连接";
+"please_refresh_iphone" = "请在 iPhone 上刷新";
+"could_not_connect" = "无法连接";
+"something_went_wrong" = "出现错误";
+"invalid_link" = "链接格式无效";
+"network_error" = "无网络连接。请检查 WiFi 或移动数据。";
+"session_expired" = "您的酒店链接已过期。请重新添加短信链接。";
+"invalid_response" = "无法连接到酒店系统。请重试。";
+"processing_link" = "处理链接中...";
+
+// Watch App
+"no_config" = "无配置";
+"open_iphone_app" = "打开 iPhone 应用进行配置";
+"room" = "房间";
+"tap_to_unlock" = "点击开门";
+"last_sync" = "最后同步：%@";
+"syncing" = "同步中...";

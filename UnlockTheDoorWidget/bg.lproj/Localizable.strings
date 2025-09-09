@@ -1,0 +1,5 @@
+// Widget Display
+"widget_name" = "Отключи вратата";
+"widget_description" = "Бърз достъп за отключване";
+"tap_to_unlock" = "Докоснете, за да отключите";
+"unlock" = "Отключи";

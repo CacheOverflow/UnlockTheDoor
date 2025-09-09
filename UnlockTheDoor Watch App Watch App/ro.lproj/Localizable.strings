@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  UnlockTheDoor Watch App
+  
+  Romanian localization
+*/
+
+// Main Screen
+"no_config" = "Fără Configurație";
+"open_iphone_app" = "Deschideți iPhone pentru configurare";
+"room" = "Camera";
+"tap_to_unlock" = "Apăsați pentru a deschide";
+
+// Status Messages
+"unlocking" = "Se deschide...";
+"via_iphone" = "Prin iPhone...";
+"direct_unlock" = "Direct...";
+"unlocked" = "Deschis!";
+"setup_first" = "Configurați mai întâi";
+"sync_iphone" = "Sincronizați iPhone";
+"last_sync" = "Ultima sincronizare: %@";
+"syncing" = "Se sincronizează...";
+
+// Errors
+"iphone_not_connected" = "iPhone neconectat";
+"please_refresh_iphone" = "Vă rugăm reîmprospătați pe iPhone";
+"could_not_connect" = "Nu s-a putut conecta";
+"something_went_wrong" = "Ceva nu a mers bine";

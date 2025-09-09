@@ -1,0 +1,25 @@
+// Main Screen
+"no_config" = "設定なし";
+"open_iphone_app" = "設定するにはiPhoneアプリを開いてください";
+"room" = "部屋";
+"tap_to_unlock" = "タップして解錠";
+
+// Status Messages
+"unlocking" = "解錠中...";
+"via_iphone" = "iPhone経由...";
+"direct_unlock" = "直接...";
+"unlocked" = "解錠完了！";
+"setup_first" = "最初に設定してください";
+"sync_iphone" = "iPhone同期";
+"last_sync" = "最終同期：%@";
+"syncing" = "同期中...";
+
+// Errors
+"iphone_not_connected" = "iPhoneが接続されていません";
+"please_refresh_iphone" = "iPhoneで更新してください";
+"could_not_connect" = "接続できませんでした";
+"something_went_wrong" = "問題が発生しました";
+
+// For Complications
+"app_title" = "ドアを開く";
+"unlock_door" = "ドアを開く";

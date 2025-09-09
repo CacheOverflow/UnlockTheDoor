@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  UnlockTheDoor
+  
+  Portuguese localization
+*/
+
+// Main Screen
+"app_title" = "Abrir a Porta";
+"app_subtitle" = "Acesso Inteligente a Portas de Hotel";
+
+// Configuration Status
+"door_configured" = "Porta Configurada";
+"room_label" = "Quarto: %@";
+"no_door_configured" = "Nenhuma Porta Configurada";
+"paste_sms_link" = "Cole seu link SMS do hotel para começar";
+
+// Buttons
+"add_sms_link" = "Adicionar Link SMS";
+"remove_configuration" = "Remover Configuração";
+"unlock_door" = "Abrir Porta";
+"unlocking" = "Abrindo...";
+"cancel" = "Cancelar";
+"add_link" = "Adicionar Link";
+
+// Status Messages
+"via_iphone" = "Via iPhone...";
+"direct_unlock" = "Direto...";
+"unlocked" = "Aberto!";
+"setup_first" = "Configure primeiro";
+"sync_iphone" = "Sincronizar iPhone";
+
+// Watch Status
+"watch_app_installed" = "App Watch Instalado";
+"watch_app_not_installed" = "App Watch Não Instalado";
+"watch_unlocking" = "Watch abrindo...";
+
+// Link Input Screen
+"add_hotel_link" = "Adicionar Link Hotel";
+"setup_instructions" = "Instruções de Configuração";
+"instruction_1" = "1. Encontre o SMS do seu hotel com o link de abertura";
+"instruction_2" = "2. Copie e cole o link abaixo";
+"example_link" = "Exemplo: http://k3y.in/Gtxqb";
+"sms_link_label" = "Link SMS";
+"paste_placeholder" = "Cole aqui seu link SMS do hotel";
+
+// Errors
+"iphone_not_connected" = "iPhone não conectado";
+"please_refresh_iphone" = "Por favor atualize no iPhone";
+"could_not_connect" = "Não foi possível conectar";
+"something_went_wrong" = "Algo deu errado";
+"invalid_link" = "Formato de link inválido";
+"network_error" = "Sem conexão à Internet. Verifique WiFi ou dados móveis.";
+"session_expired" = "Seu link do hotel expirou. Por favor adicione o link SMS novamente.";
+"invalid_response" = "Não foi possível conectar ao sistema do hotel. Por favor tente novamente.";
+"processing_link" = "Processando link...";
+
+// Watch App
+"no_config" = "Sem Configuração";
+"open_iphone_app" = "Abra o app iPhone para configurar";
+"room" = "Quarto";
+"tap_to_unlock" = "Toque para abrir";
+"last_sync" = "Última sincronização: %@";
+"syncing" = "Sincronizando...";

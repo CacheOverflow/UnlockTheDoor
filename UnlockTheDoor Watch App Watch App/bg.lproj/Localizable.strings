@@ -1,0 +1,25 @@
+// Main Screen
+"no_config" = "Няма конфигурация";
+"open_iphone_app" = "Отворете iPhone приложението за конфигуриране";
+"room" = "Стая";
+"tap_to_unlock" = "Докоснете, за да отключите";
+
+// Status Messages
+"unlocking" = "Отключване...";
+"via_iphone" = "Чрез iPhone...";
+"direct_unlock" = "Директно...";
+"unlocked" = "Отключено!";
+"setup_first" = "Първо настройте";
+"sync_iphone" = "Синхронизирай iPhone";
+"last_sync" = "Последна синхронизация: %@";
+"syncing" = "Синхронизиране...";
+
+// Errors
+"iphone_not_connected" = "iPhone не е свързан";
+"please_refresh_iphone" = "Моля, обновете на iPhone";
+"could_not_connect" = "Не можа да се свърже";
+"something_went_wrong" = "Нещо се обърка";
+
+// For Complications
+"app_title" = "Отключи вратата";
+"unlock_door" = "Отключи вратата";

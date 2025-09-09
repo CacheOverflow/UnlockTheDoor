@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  UnlockTheDoorWidget
+  
+  German localization
+*/
+
+// Widget Display
+"widget_name" = "Tür Öffnen";
+"widget_description" = "Schneller Türzugang";
+"tap_to_unlock" = "Zum Öffnen tippen";
+"unlock" = "Öffnen";

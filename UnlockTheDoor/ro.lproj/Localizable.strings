@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  UnlockTheDoor
+  
+  Romanian localization
+*/
+
+// Main Screen
+"app_title" = "Deschide Ușa";
+"app_subtitle" = "Acces Inteligent pentru Ușa Hotelului";
+
+// Configuration Status
+"door_configured" = "Ușă Configurată";
+"room_label" = "Camera: %@";
+"no_door_configured" = "Nicio Ușă Configurată";
+"paste_sms_link" = "Adaugă link-ul SMS de la hotel pentru a începe";
+
+// Buttons
+"add_sms_link" = "Adaugă Link SMS";
+"remove_configuration" = "Șterge Configurația Ușii";
+"unlock_door" = "Deschide Ușa";
+"unlocking" = "Se deschide...";
+"cancel" = "Anulează";
+"add_link" = "Adaugă Link";
+
+// Status Messages
+"via_iphone" = "Prin iPhone...";
+"direct_unlock" = "Direct...";
+"unlocked" = "Deschis!";
+"setup_first" = "Configurați mai întâi";
+"sync_iphone" = "Sincronizați iPhone";
+
+// Watch Status
+"watch_app_installed" = "Aplicație Watch Instalată";
+"watch_app_not_installed" = "Aplicație Watch Neinstalată";
+"watch_unlocking" = "Watch deschide...";
+
+// Link Input Screen
+"add_hotel_link" = "Adaugă Link Hotel";
+"setup_instructions" = "Instrucțiuni de Configurare";
+"instruction_1" = "1. Găsiți SMS-ul de la hotel cu link-ul de deschidere a ușii";
+"instruction_2" = "2. Copiați și lipiți link-ul mai jos";
+"example_link" = "Exemplu: http://k3y.in/Gtxqb";
+"sms_link_label" = "Link SMS";
+"paste_placeholder" = "Lipiți link-ul SMS de la hotel aici";
+
+// Errors
+"iphone_not_connected" = "iPhone neconectat";
+"please_refresh_iphone" = "Vă rugăm reîmprospătați pe iPhone";
+"could_not_connect" = "Nu s-a putut conecta";
+"something_went_wrong" = "Ceva nu a mers bine";
+"invalid_link" = "Format link invalid";
+"network_error" = "Eroare de rețea";
+"session_expired" = "Link-ul hotelului a expirat. Vă rugăm adăugați link-ul SMS din nou.";
+"invalid_response" = "Nu s-a putut conecta la sistemul hotelului. Încercați din nou.";
+"processing_link" = "Se procesează link-ul...";
+
+// Watch App
+"no_config" = "Fără Configurație";
+"open_iphone_app" = "Deschideți iPhone pentru configurare";
+"room" = "Camera";
+"tap_to_unlock" = "Apăsați pentru a deschide";
+"last_sync" = "Ultima sincronizare: %@";
+"syncing" = "Se sincronizează...";

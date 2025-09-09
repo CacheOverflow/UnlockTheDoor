@@ -1,0 +1,57 @@
+// Main Screen
+"app_title" = "Отключи вратата";
+"app_subtitle" = "Интелигентен достъп до хотелски врати";
+
+// Configuration Status
+"door_configured" = "Вратата са конфигурирани";
+"room_label" = "Стая: %@";
+"no_door_configured" = "Няма конфигурирани врати";
+"paste_sms_link" = "Поставете вашата хотелска SMS връзка за започване";
+
+// Buttons
+"add_sms_link" = "Добави SMS връзка";
+"remove_configuration" = "Премахни конфигурацията на вратата";
+"unlock_door" = "Отключи вратата";
+"unlocking" = "Отключвам...";
+"cancel" = "Отказ";
+"add_link" = "Добави връзка";
+
+// Status Messages
+"via_iphone" = "Чрез iPhone...";
+"direct_unlock" = "Директно...";
+"unlocked" = "Отключено!";
+"setup_first" = "Първо настройте";
+"sync_iphone" = "Синхронизирай iPhone";
+
+// Watch Status
+"watch_app_installed" = "Приложението за часовник е инсталирано";
+"watch_app_not_installed" = "Приложението за часовник не е инсталирано";
+"watch_unlocking" = "Часовникът отключва...";
+
+// Link Input Screen
+"add_hotel_link" = "Добави хотелска връзка";
+"setup_instructions" = "Инструкции за настройка";
+"instruction_1" = "1. Намерете SMS-а от вашия хотел с връзката за отключване на вратата";
+"instruction_2" = "2. Копирайте и поставете връзката по-долу";
+"example_link" = "Пример: http://k3y.in/Gtxqb";
+"sms_link_label" = "SMS връзка";
+"paste_placeholder" = "Поставете вашата хотелска SMS връзка тук";
+
+// Errors
+"iphone_not_connected" = "iPhone не е свързан";
+"please_refresh_iphone" = "Моля обновете на iPhone";
+"could_not_connect" = "Неуспешно свързване";
+"something_went_wrong" = "Нещо се обърка";
+"invalid_link" = "Невалиден формат на връзката";
+"network_error" = "Няма интернет връзка. Проверете Wi-Fi или мобилните данни.";
+"session_expired" = "Вашата хотелска връзка е изтекла. Добавете SMS връзката отново.";
+"invalid_response" = "Неуспешно свързване с хотелската система. Опитайте отново.";
+"processing_link" = "Обработка на връзката...";
+
+// Watch App
+"no_config" = "Няма конфигурация";
+"open_iphone_app" = "Отворете iPhone приложението за конфигуриране";
+"room" = "Стая";
+"tap_to_unlock" = "Докоснете за отключване";
+"last_sync" = "Последна синхронизация: %@";
+"syncing" = "Синхронизиране...";

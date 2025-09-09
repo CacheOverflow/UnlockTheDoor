@@ -1,0 +1,5 @@
+// Widget Display
+"widget_name" = "开门";
+"widget_description" = "快速解锁访问";
+"tap_to_unlock" = "点击解锁";
+"unlock" = "解锁";

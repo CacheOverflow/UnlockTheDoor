@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  UnlockTheDoorWidget
+  
+  Romanian localization
+*/
+
+// Widget Display
+"widget_name" = "Deschide Ușa";
+"widget_description" = "Acces rapid pentru deschidere";
+"tap_to_unlock" = "Apăsați pentru a deschide";
+"unlock" = "Deschide";

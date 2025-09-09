@@ -1,0 +1,64 @@
+/* 
+  Localizable.strings
+  UnlockTheDoor
+  
+  English localization
+*/
+
+// Main Screen
+"app_title" = "Unlock The Door";
+"app_subtitle" = "Smart Hotel Door Access";
+
+// Configuration Status
+"door_configured" = "Door Configured";
+"room_label" = "Room: %@";
+"no_door_configured" = "No Door Configured";
+"paste_sms_link" = "Paste your hotel SMS link to get started";
+
+// Buttons
+"add_sms_link" = "Add SMS Link";
+"remove_configuration" = "Remove Door Configuration";
+"unlock_door" = "Unlock Door";
+"unlocking" = "Unlocking...";
+"cancel" = "Cancel";
+"add_link" = "Add Link";
+
+// Status Messages
+"via_iphone" = "Via iPhone...";
+"direct_unlock" = "Direct...";
+"unlocked" = "Unlocked!";
+"setup_first" = "Setup first";
+"sync_iphone" = "Sync iPhone";
+
+// Watch Status
+"watch_app_installed" = "Watch App Installed";
+"watch_app_not_installed" = "Watch App Not Installed";
+"watch_unlocking" = "Watch unlocking...";
+
+// Link Input Screen
+"add_hotel_link" = "Add Hotel Link";
+"setup_instructions" = "Setup Instructions";
+"instruction_1" = "1. Find the SMS from your hotel with the door unlock link";
+"instruction_2" = "2. Copy and paste the link below";
+"example_link" = "Example: http://k3y.in/Gtxqb";
+"sms_link_label" = "SMS Link";
+"paste_placeholder" = "Paste your hotel SMS link here";
+
+// Errors
+"iphone_not_connected" = "iPhone not connected";
+"please_refresh_iphone" = "Please refresh on iPhone";
+"could_not_connect" = "Could not connect";
+"something_went_wrong" = "Something went wrong";
+"invalid_link" = "Invalid link format";
+"network_error" = "No internet connection. Please check your WiFi or cellular data.";
+"session_expired" = "Your hotel link has expired. Please add the SMS link again.";
+"invalid_response" = "Could not connect to hotel system. Please try again.";
+"processing_link" = "Processing link...";
+
+// Watch App
+"no_config" = "No Configuration";
+"open_iphone_app" = "Open iPhone app to configure";
+"room" = "Room";
+"tap_to_unlock" = "Tap to unlock";
+"last_sync" = "Last sync: %@";
+"syncing" = "Syncing...";

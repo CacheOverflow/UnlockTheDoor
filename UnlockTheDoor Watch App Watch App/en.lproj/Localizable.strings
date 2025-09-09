@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  UnlockTheDoor Watch App
+  
+  English localization
+*/
+
+// Main Screen
+"no_config" = "No Configuration";
+"open_iphone_app" = "Open iPhone app to configure";
+"room" = "Room";
+"tap_to_unlock" = "Tap to unlock";
+
+// Status Messages
+"unlocking" = "Unlocking...";
+"via_iphone" = "Via iPhone...";
+"direct_unlock" = "Direct...";
+"unlocked" = "Unlocked!";
+"setup_first" = "Setup first";
+"sync_iphone" = "Sync iPhone";
+"last_sync" = "Last sync: %@";
+"syncing" = "Syncing...";
+
+// Errors
+"iphone_not_connected" = "iPhone not connected";
+"please_refresh_iphone" = "Please refresh on iPhone";
+"could_not_connect" = "Could not connect";
+"something_went_wrong" = "Something went wrong";

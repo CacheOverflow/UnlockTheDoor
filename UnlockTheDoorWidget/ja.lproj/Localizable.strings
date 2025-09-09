@@ -1,0 +1,5 @@
+// Widget Display
+"widget_name" = "ドアを開く";
+"widget_description" = "クイック解錠アクセス";
+"tap_to_unlock" = "タップして解錠";
+"unlock" = "解錠";
