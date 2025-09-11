@@ -43,9 +43,9 @@ struct ContentView: View {
         } else if isWaitingForSync {
             return "syncing".localized
         } else if !sessionStore.isConfigured {
-            return "setup_first".localized
+            return "not_configured".localized  // Status, not action
         } else if !sessionStore.hasValidCookie {
-            return "sync_iphone".localized
+            return "expired".localized  // Short status
         } else if !networkMonitor.hasInternet {
             return "no_network".localized
         } else {
@@ -90,12 +90,12 @@ struct ContentView: View {
                             .foregroundStyle(.blue)
                     }
                 } else if !sessionStore.isConfigured {
-                    Text("setup_first".localized)
+                    Text("open_iphone_app".localized)
                         .font(.caption)
                         .foregroundStyle(.orange)
                         .fontWeight(.semibold)
                 } else if !sessionStore.hasValidCookie {
-                    Text("sync_iphone".localized)
+                    Text("session_expired".localized)
                         .font(.caption)
                         .foregroundStyle(.red)
                         .fontWeight(.semibold)
@@ -339,10 +339,12 @@ struct ContentView: View {
     }
     
     private func stopConnectionMonitoring() {
+        // Stop timer first
         connectionCheckTimer?.invalidate()
         connectionCheckTimer = nil
         
-        // Stop internet connectivity checks to save battery
+        // Then stop network monitor checks to save battery
+        // Important: do this after invalidating timer to avoid race condition
         networkMonitor.stopConnectivityChecks()
     }
     

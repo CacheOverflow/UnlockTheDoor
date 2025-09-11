@@ -10,7 +10,6 @@ Opens hotel room doors using digital access links sent via SMS from compatible h
 
 - One-tap door unlock
 - Works on iPhone and Apple Watch
-- Offline support after initial setup
 - Home screen widget
 - Watch complications
 - Multi-language support
@@ -28,7 +27,7 @@ Works with hotels using the Pyn Guest digital lock system.
 ## Requirements
 
 - iOS 16.0+
-- watchOS 9.0+ (optional)
+- watchOS 11.0+ (optional)
 
 ## Privacy
 

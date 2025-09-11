@@ -41,6 +41,11 @@ class SessionStore: ObservableObject {
         // Store the original link for fallback
         _ = cleanedLink
         
+        // Check for demo mode (demo.k3y.in/anything)
+        if cleanedLink.lowercased().contains("demo.k3y.in") {
+            return await processDemoLink(cleanedLink)
+        }
+        
         // Always use HTTPS for security (convert HTTP to HTTPS)
         if !cleanedLink.hasPrefix("http://") && !cleanedLink.hasPrefix("https://") {
             cleanedLink = "https://\(cleanedLink)"
@@ -102,6 +107,70 @@ class SessionStore: ObservableObject {
         defaults.synchronize()
         
         // Notify watch of the new session
+        WatchConnectivityManager.shared.sendSessionUpdate()
+        
+        return true
+    }
+    
+    private func generateConsistentRoomId(from input: String) -> String {
+        // Create a consistent hash from the input string
+        var hash = 0
+        for char in input.unicodeScalars {
+            hash = ((hash << 5) &- hash) &+ Int(char.value)
+        }
+        
+        // Use the hash to generate consistent 4-digit groups
+        // Make it look like the production format: XXXX-XXXX-XXXX
+        let part1 = abs(hash % 10000)
+        let part2 = abs((hash >> 8) % 10000)
+        let part3 = abs((hash >> 16) % 10000)
+        
+        // Format with leading zeros and combine with letters for more realistic look
+        let letters = "abcdef"
+        let letterIndex = abs(hash) % letters.count
+        let letter = letters[letters.index(letters.startIndex, offsetBy: letterIndex)]
+        
+        // Convert Character to String for formatting
+        return String(format: "%04d-%04d-%02d%@%d", part1, part2, part3 / 100, String(letter), part3 % 10)
+    }
+    
+    private func processDemoLink(_ link: String) async -> Bool {
+        // Extract the demo room ID from the link (e.g., demo.k3y.in/Room101)
+        let components = link.split(separator: "/")
+        let inputRoomId = components.last.map(String.init) ?? "DemoRoom"
+        
+        // Generate a consistent UUID-like format based on the input
+        // Use the input as a seed to generate consistent room IDs
+        let demoRoomId = generateConsistentRoomId(from: inputRoomId)
+        
+        // Simulate realistic network delay (2-3 seconds like following redirects)
+        let delay = Double.random(in: 2.0...3.0)
+        try? await Task.sleep(nanoseconds: UInt64(delay * 1_000_000_000))
+        
+        // Update on main thread
+        await MainActor.run {
+            self.smsLink = link
+            self.doorId = demoRoomId
+            self.baseUrl = "demo.k3y.in"
+            self.sessionPath = "/demo/\(demoRoomId)"
+            self.hasStoredSession = true
+            
+            print("📱 DEMO MODE ACTIVATED - Room: \(self.doorId)")
+        }
+        
+        // Save demo session to UserDefaults
+        if let defaults = sharedDefaults {
+            defaults.set(link, forKey: smsLinkKey)
+            defaults.set(demoRoomId, forKey: doorIdKey)
+            defaults.set("demo.k3y.in", forKey: baseUrlKey)
+            defaults.set("/demo/\(demoRoomId)", forKey: sessionPathKey)
+            defaults.synchronize()
+        }
+        
+        // Create a mock cookie for consistency
+        CookieManager.shared.saveDemoCookie(domain: "demo.k3y.in")
+        
+        // Notify Watch
         WatchConnectivityManager.shared.sendSessionUpdate()
         
         return true

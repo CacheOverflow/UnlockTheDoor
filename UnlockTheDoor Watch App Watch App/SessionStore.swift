@@ -30,7 +30,13 @@ class SessionStore: ObservableObject {
     }
     
     init() {
+        // Load data without accessing other singletons
         loadStoredData()
+        
+        // Defer cookie restoration to avoid initialization cycles
+        Task { @MainActor in
+            restoreCookieIfNeeded()
+        }
     }
     
     func loadStoredData() {
@@ -44,11 +50,14 @@ class SessionStore: ObservableObject {
             cookieExpiry = Date(timeIntervalSince1970: expiryInterval)
         }
         isConfigured = defaults.bool(forKey: configuredKey)
-        
+    }
+    
+    private func restoreCookieIfNeeded() {
         // If we have stored cookie data but no HTTPCookie, recreate it
         if !cookieValue.isEmpty && !baseUrl.isEmpty {
             // Check if cookie exists in HTTPCookieStorage
-            if !CookieManager.shared.hasValidSession() {
+            // Pass baseUrl explicitly to avoid circular dependency
+            if !CookieManager.shared.hasValidSession(for: baseUrl) {
                 // Recreate the cookie in HTTPCookieStorage
                 createAndStoreCookie(value: cookieValue, domain: baseUrl, expiry: cookieExpiry)
             }

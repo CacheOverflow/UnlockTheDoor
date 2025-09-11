@@ -64,6 +64,12 @@ class DoorUnlockService: ObservableObject {
     private init() {}
     
     func unlockDoor() async throws {
+        // Check for demo mode
+        if sessionStore.baseUrl == "demo.k3y.in" {
+            try await performDemoUnlock()
+            return
+        }
+        
         // Check configuration first
         guard sessionStore.isConfigured else {
             await MainActor.run {
@@ -208,6 +214,42 @@ class DoorUnlockService: ObservableObject {
         } else {
             print("❌ Unexpected status code: \(httpResponse.statusCode)")
             throw DoorUnlockError.unknownError
+        }
+    }
+    
+    private func performDemoUnlock() async throws {
+        await MainActor.run {
+            isUnlocking = true
+            statusMessage = "unlocking".localized
+        }
+        
+        // Simulate network delay for realism (3 seconds as requested)
+        try await Task.sleep(nanoseconds: 3_000_000_000)
+        
+        // Randomly succeed or fail for realism (90% success rate)
+        let success = Int.random(in: 1...10) <= 9
+        
+        await MainActor.run {
+            if success {
+                lastUnlockTime = Date()
+                statusMessage = "unlocked".localized
+                print("⌚ DEMO: Door unlock simulated - SUCCESS")
+            } else {
+                statusMessage = "network_error".localized
+                print("⌚ DEMO: Door unlock simulated - NETWORK ERROR (intentional for realism)")
+            }
+            isUnlocking = false
+        }
+        
+        // Clear status message after a delay
+        try await Task.sleep(nanoseconds: 2_000_000_000)
+        
+        await MainActor.run {
+            statusMessage = ""
+        }
+        
+        if !success {
+            throw DoorUnlockError.networkError
         }
     }
 }

@@ -72,6 +72,23 @@ class CookieManager {
         return false
     }
     
+    func saveDemoCookie(domain: String) {
+        // Create a demo cookie that expires in 24 hours
+        let cookieProperties: [HTTPCookiePropertyKey: Any] = [
+            .name: "PHPSESSID",
+            .value: "demo_session_\(UUID().uuidString.replacingOccurrences(of: "-", with: "").lowercased().prefix(26))",
+            .domain: domain,
+            .path: "/",
+            .expires: Date().addingTimeInterval(24 * 60 * 60),
+            .version: "0"
+        ]
+        
+        if let cookie = HTTPCookie(properties: cookieProperties) {
+            HTTPCookieStorage.shared.setCookie(cookie)
+            print("📱 DEMO: Created demo session cookie")
+        }
+    }
+    
     func clearSession() {
         guard let cookies = HTTPCookieStorage.shared.cookies else { return }
         

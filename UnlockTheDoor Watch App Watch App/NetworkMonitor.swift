@@ -57,6 +57,11 @@ class NetworkMonitor: ObservableObject {
     }
     
     func stopConnectivityChecks() {
+        // Cancel any active check first
+        activeCheckTask?.cancel()
+        activeCheckTask = nil
+        
+        // Then invalidate timer
         connectivityCheckTimer?.invalidate()
         connectivityCheckTimer = nil
     }
@@ -108,7 +113,8 @@ class NetworkMonitor: ObservableObject {
     }
     
     deinit {
+        // Clean up timer first before cancelling monitor
+        stopConnectivityChecks()
         monitor.cancel()
-        // Timer cleanup is now handled by stopConnectivityChecks()
     }
 }

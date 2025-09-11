@@ -33,20 +33,20 @@ class CookieManager {
         }
     }
     
-    func hasValidSession() -> Bool {
+    func hasValidSession(for baseUrl: String? = nil) -> Bool {
         guard let cookies = HTTPCookieStorage.shared.cookies else { return false }
         
-        // Get the base URL from SessionStore to check cookies
-        let sessionStore = SessionStore.shared
-        guard !sessionStore.baseUrl.isEmpty else { return false }
+        // Use provided baseUrl or get from SessionStore (but avoid during init)
+        let urlToCheck = baseUrl ?? SessionStore.shared.baseUrl
+        guard !urlToCheck.isEmpty else { return false }
         
         for cookie in cookies {
             // Check if this is a PHPSESSID cookie for our domain
             // Cookie domains can start with a dot (e.g., .pynguest.app)
             let cookieDomain = cookie.domain.hasPrefix(".") ? String(cookie.domain.dropFirst()) : cookie.domain
-            let isOurDomain = cookieDomain == sessionStore.baseUrl || 
-                             sessionStore.baseUrl.hasSuffix(cookieDomain) || 
-                             cookieDomain.hasSuffix(sessionStore.baseUrl)
+            let isOurDomain = cookieDomain == urlToCheck || 
+                             urlToCheck.hasSuffix(cookieDomain) || 
+                             cookieDomain.hasSuffix(urlToCheck)
             
             if cookie.name == "PHPSESSID" && isOurDomain {
                 // Check if cookie is still valid (within 23 hours to be safe)
@@ -74,24 +74,24 @@ class CookieManager {
         return false
     }
     
-    func clearSession() {
+    func clearSession(for baseUrl: String? = nil) {
         guard let cookies = HTTPCookieStorage.shared.cookies else { return }
         
-        let sessionStore = SessionStore.shared
+        let urlToCheck = baseUrl ?? SessionStore.shared.baseUrl
         
         for cookie in cookies {
             // Delete PHPSESSID for the configured domain, or all PHPSESSID if no domain configured
             if cookie.name == "PHPSESSID" {
-                if sessionStore.baseUrl.isEmpty {
+                if urlToCheck.isEmpty {
                     // No domain configured - delete all PHPSESSID cookies
                     HTTPCookieStorage.shared.deleteCookie(cookie)
                     print("Deleted session cookie")
                 } else {
                     // Check if this cookie belongs to our domain
                     let cookieDomain = cookie.domain.hasPrefix(".") ? String(cookie.domain.dropFirst()) : cookie.domain
-                    let isOurDomain = cookieDomain == sessionStore.baseUrl || 
-                                     sessionStore.baseUrl.hasSuffix(cookieDomain) || 
-                                     cookieDomain.hasSuffix(sessionStore.baseUrl)
+                    let isOurDomain = cookieDomain == urlToCheck || 
+                                     urlToCheck.hasSuffix(cookieDomain) || 
+                                     cookieDomain.hasSuffix(urlToCheck)
                     if isOurDomain {
                         HTTPCookieStorage.shared.deleteCookie(cookie)
                         print("Deleted session cookie for domain: \(cookie.domain)")
@@ -101,18 +101,18 @@ class CookieManager {
         }
     }
     
-    func getSessionExpiry() -> Date? {
+    func getSessionExpiry(for baseUrl: String? = nil) -> Date? {
         guard let cookies = HTTPCookieStorage.shared.cookies else { return nil }
         
-        let sessionStore = SessionStore.shared
-        guard !sessionStore.baseUrl.isEmpty else { return nil }
+        let urlToCheck = baseUrl ?? SessionStore.shared.baseUrl
+        guard !urlToCheck.isEmpty else { return nil }
         
         for cookie in cookies {
             // Check if this is a PHPSESSID cookie for our domain
             let cookieDomain = cookie.domain.hasPrefix(".") ? String(cookie.domain.dropFirst()) : cookie.domain
-            let isOurDomain = cookieDomain == sessionStore.baseUrl || 
-                             sessionStore.baseUrl.hasSuffix(cookieDomain) || 
-                             cookieDomain.hasSuffix(sessionStore.baseUrl)
+            let isOurDomain = cookieDomain == urlToCheck || 
+                             urlToCheck.hasSuffix(cookieDomain) || 
+                             cookieDomain.hasSuffix(urlToCheck)
             
             if cookie.name == "PHPSESSID" && isOurDomain {
                 // If no expiry date, assume it expires in 23 hours

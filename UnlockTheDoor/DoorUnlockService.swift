@@ -48,6 +48,15 @@ final class DoorUnlockService: ObservableObject, @unchecked Sendable {
     }
     
     func checkSessionValidity() async {
+        // Demo mode always has valid session
+        if sessionStore.baseUrl == "demo.k3y.in" {
+            await MainActor.run {
+                sessionValid = true
+                sessionExpiry = Date().addingTimeInterval(24 * 60 * 60) // 24 hours from now
+            }
+            return
+        }
+        
         // Simple check - no need for complex task detachment
         let valid = CookieManager.shared.hasValidSession()
         let expiry = CookieManager.shared.getSessionExpiry()
@@ -59,6 +68,12 @@ final class DoorUnlockService: ObservableObject, @unchecked Sendable {
     }
     
     func unlockDoor() async {
+        // Check for demo mode
+        if sessionStore.baseUrl == "demo.k3y.in" {
+            await performDemoUnlock()
+            return
+        }
+        
         // Start background task to ensure completion even if app goes to background
         backgroundTask = UIApplication.shared.beginBackgroundTask { [weak self] in
             // Clean up if we run out of time
@@ -280,6 +295,41 @@ final class DoorUnlockService: ObservableObject, @unchecked Sendable {
         } else {
             print("❌ Unlock failed - unexpected status: \(httpResponse.statusCode)")
             throw DoorUnlockError.invalidResponse
+        }
+    }
+    
+    private func performDemoUnlock() async {
+        await MainActor.run {
+            isUnlocking = true
+            statusMessage = "unlocking".localized
+            lastUnlockSuccessful = false
+        }
+        
+        // Simulate network delay for realism (3 seconds as requested)
+        try? await Task.sleep(nanoseconds: 3_000_000_000)
+        
+        // Randomly succeed or fail for realism (90% success rate)
+        let success = Int.random(in: 1...10) <= 9
+        
+        await MainActor.run {
+            if success {
+                lastUnlockTime = Date()
+                statusMessage = "unlocked".localized
+                lastUnlockSuccessful = true
+                print("📱 DEMO: Door unlock simulated - SUCCESS")
+            } else {
+                statusMessage = "network_error".localized
+                lastUnlockSuccessful = false
+                print("📱 DEMO: Door unlock simulated - NETWORK ERROR (intentional for realism)")
+            }
+            isUnlocking = false
+        }
+        
+        // Clear status message after a delay
+        try? await Task.sleep(nanoseconds: 3_000_000_000)
+        
+        await MainActor.run {
+            statusMessage = ""
         }
     }
     

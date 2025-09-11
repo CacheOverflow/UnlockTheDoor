@@ -7,7 +7,7 @@
 
 // Main Screen
 "no_config" = "No Configuration";
-"open_iphone_app" = "Open iPhone app to configure";
+"open_iphone_app" = "Open iPhone app";
 "room" = "Room";
 "tap_to_unlock" = "Tap to unlock";
 
@@ -17,6 +17,9 @@
 "direct_unlock" = "Direct...";
 "unlocked" = "Unlocked!";
 "setup_first" = "Setup first";
+"not_configured" = "Not Configured";
+"expired" = "Expired";
+"session_expired" = "Session expired";
 "sync_iphone" = "Sync iPhone";
 "last_sync" = "Last sync: %@";
 "syncing" = "Syncing...";
