@@ -17,6 +17,9 @@
 "direct_unlock" = "Direct...";
 "unlocked" = "Deschis!";
 "setup_first" = "Configurați mai întâi";
+"not_configured" = "Neconfigurat";
+"expired" = "Expirat";
+"session_expired" = "Sesiune expirată";
 "sync_iphone" = "Sincronizați iPhone";
 "last_sync" = "Ultima sincronizare: %@";
 "syncing" = "Se sincronizează...";

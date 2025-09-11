@@ -10,6 +10,9 @@
 "direct_unlock" = "Директно...";
 "unlocked" = "Отключено!";
 "setup_first" = "Първо настройте";
+"not_configured" = "Не е конфигурирано";
+"expired" = "Изтекъл";
+"session_expired" = "Сесията е изтекла";
 "sync_iphone" = "Синхронизирай iPhone";
 "last_sync" = "Последна синхронизация: %@";
 "syncing" = "Синхронизиране...";

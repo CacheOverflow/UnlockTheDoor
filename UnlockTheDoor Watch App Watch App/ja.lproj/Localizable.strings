@@ -10,6 +10,9 @@
 "direct_unlock" = "直接...";
 "unlocked" = "解錠完了！";
 "setup_first" = "最初に設定してください";
+"not_configured" = "未設定";
+"expired" = "期限切れ";
+"session_expired" = "セッション期限切れ";
 "sync_iphone" = "iPhone同期";
 "last_sync" = "最終同期：%@";
 "syncing" = "同期中...";

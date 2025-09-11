@@ -10,6 +10,9 @@
 "direct_unlock" = "直接...";
 "unlocked" = "已解锁！";
 "setup_first" = "先设置";
+"not_configured" = "未配置";
+"expired" = "已过期";
+"session_expired" = "会话已过期";
 "sync_iphone" = "同步iPhone";
 "last_sync" = "上次同步：%@";
 "syncing" = "同步中...";

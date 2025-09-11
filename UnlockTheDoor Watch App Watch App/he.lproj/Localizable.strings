@@ -10,6 +10,9 @@
 "direct_unlock" = "ישיר...";
 "unlocked" = "נפתח!";
 "setup_first" = "הגדר תחילה";
+"not_configured" = "לא מוגדר";
+"expired" = "פג תוקף";
+"session_expired" = "התפוגה של הפעולה";
 "sync_iphone" = "סנכרן אייפון";
 "last_sync" = "סנכרון אחרון: %@";
 "syncing" = "מסנכרן...";

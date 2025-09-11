@@ -10,6 +10,9 @@
 "direct_unlock" = "Прямо...";
 "unlocked" = "Відкрито!";
 "setup_first" = "Спочатку налаштуйте";
+"not_configured" = "Не налаштовано";
+"expired" = "Закінчився";
+"session_expired" = "Сесія закінчилася";
 "sync_iphone" = "Синхронізувати iPhone";
 "last_sync" = "Остання синхронізація: %@";
 "syncing" = "Синхронізація...";

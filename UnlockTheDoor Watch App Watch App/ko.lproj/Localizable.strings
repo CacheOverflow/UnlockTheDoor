@@ -10,6 +10,9 @@
 "direct_unlock" = "직접...";
 "unlocked" = "잠금 해제됨!";
 "setup_first" = "먼저 설정하세요";
+"not_configured" = "구성되지 않음";
+"expired" = "만료됨";
+"session_expired" = "세션 만료";
 "sync_iphone" = "iPhone 동기화";
 "last_sync" = "마지막 동기화: %@";
 "syncing" = "동기화 중...";

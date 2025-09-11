@@ -17,6 +17,9 @@
 "direct_unlock" = "Direkt...";
 "unlocked" = "Geöffnet!";
 "setup_first" = "Zuerst einrichten";
+"not_configured" = "Nicht konfiguriert";
+"expired" = "Abgelaufen";
+"session_expired" = "Sitzung abgelaufen";
 "sync_iphone" = "iPhone synchronisieren";
 "last_sync" = "Letzte Synchronisation: %@";
 "syncing" = "Synchronisiere...";

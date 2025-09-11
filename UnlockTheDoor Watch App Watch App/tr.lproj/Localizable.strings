@@ -10,6 +10,9 @@
 "direct_unlock" = "Doğrudan...";
 "unlocked" = "Kilit açıldı!";
 "setup_first" = "Önce kurulum yapın";
+"not_configured" = "Yapılandırılmamış";
+"expired" = "Süresi doldu";
+"session_expired" = "Oturum süresi doldu";
 "sync_iphone" = "iPhone'u senkronize et";
 "last_sync" = "Son senkronizasyon: %@";
 "syncing" = "Senkronize ediliyor...";
